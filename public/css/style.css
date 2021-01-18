@@ -1,0 +1,94 @@
+#title {
+    color: rgb(62, 108, 112);
+    margin-top: 30px;
+}
+
+#locationEnter{
+    color: dimgray;
+}
+.searchField {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.searchBtn {
+    width: 150px;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+    .col-md-2 {
+        width: 50%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .col-md-2 {
+        width: 33.33%;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 959px) {
+    .col-md-2 {
+        width: 12.5%;
+    }
+}
+
+.locationComplete {
+    margin-top: 30px;
+}
+
+#content {
+    margin-top: 40px;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+    color: brown;
+}
+
+#weatherman {
+    /* background-image: url("../img/forecast.jpg"); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.min {
+    color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.max {
+    color: rgb(219, 92, 7);
+    display: flex;
+    justify-content: center;
+}
+
+.wind {
+    margin-left:1em;
+    color: rgb(71, 71, 71);
+    font-size: 1rem;
+}
+
+#locationData {
+    color: darkcyan;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-style: italic;
+    color: darkslategrey;
+}
